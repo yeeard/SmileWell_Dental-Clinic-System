@@ -1,0 +1,34 @@
+.appointmentCardBody{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin: 0.2rem 0.4rem;
+    gap: 0.6rem;
+    
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.branchBar{
+    background: rgb(47, 129, 236);
+    width: 1rem;
+    border-radius: 1rem;
+}
+
+.entryInfoContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.entryInfoContainer p{
+    display: flex;
+    margin: 0;
+
+    font-size: 1.5rem;
+}
+
+.entryInfoName{
+    font-weight: 800;
+}
+

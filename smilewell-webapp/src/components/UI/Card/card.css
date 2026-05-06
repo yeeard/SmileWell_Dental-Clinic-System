@@ -1,0 +1,37 @@
+.profileContainer{
+    display: flex;
+    padding: 0 1.25rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.875rem;
+    align-self: stretch;
+}
+
+.usernameContainer{
+    display: flex;
+    padding: 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.usernameContainer h5{
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.usernameContainer h6{
+    color: #959595;
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.picture{
+    border-color:blue;
+    border-style: solid;
+    border-radius: 10px;
+}

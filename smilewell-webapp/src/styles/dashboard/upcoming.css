@@ -1,0 +1,63 @@
+.upcomingContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    background: #fff;
+    border-radius: 0.9375rem;
+    overflow: hidden; /* keeps scroll contained */
+}
+
+.upcomingHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    padding: 0.9375rem;
+    flex-shrink: 0; /* IMPORTANT: header stays fixed */
+}
+
+.upcomingHeaderText {
+    font-size: 2.25rem;
+    font-weight: 500;
+
+    margin: 0; /* remove weird centering hacks */
+}
+
+.dashboardBranchFilter {
+    margin-right: auto;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+    background: #E5E7EB;
+}
+
+.branchFilterText{
+    color: #858788;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -0.06rem;
+}
+
+.upcomingTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 5px solid #eee;
+}
+
+.upcomingTitle h2{
+    color: #959595;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.summaryAppointments {
+    flex: 1;                /* takes remaining space */
+    overflow-y: auto;       /* THIS is the scroll */
+    
+    padding: 0 1.5rem;
+}

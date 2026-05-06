@@ -1,0 +1,16 @@
+.createAppointmentButton{
+    display: flex;
+    align-items: center;
+    height: 4.375rem;
+    padding: 2rem;
+
+    border: 2px solid #858788;
+    border-radius: 1rem;
+}
+
+.createAppointmentButton h3{
+    color: #858788;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -0.06rem;
+}

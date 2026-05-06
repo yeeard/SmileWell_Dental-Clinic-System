@@ -1,0 +1,79 @@
+/* ICONS */
+.iconContainer{
+    display: flex;
+    width: 6.25rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+
+    border-radius: 0.9375rem;
+}
+
+.navItemIcon{
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+}
+
+/* NAV-ITEM */
+.navItem{
+    display: flex;
+    height: 5.625rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    align-self: stretch;
+
+    border: none;
+    border-radius: 0.9375rem;
+    background: #ffffff;
+    box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3);
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.2s ease, background 0.15s ease;
+}
+
+.navItem:hover{
+    background: #f3f4f6;
+}
+
+.navItem:active{
+    background: black;
+    color: white;
+}
+
+.navItem.active{
+    background:black;
+    color: white;
+}
+
+.navItem.logout{
+    background: #E5E7EB;
+}
+
+.navItem.logout:hover{
+    background: #a2a6ad;
+}
+
+.navItem.logout:active{
+    background: #0c0c0c;
+}
+
+
+.navItemTextContainer{
+    display: flex;
+    padding: 0.625rem;
+    align-items: center;
+    gap: 0.625rem;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    font-size: 2rem;
+    font-style: normal;
+    line-height:normal;
+    letter-spacing: -0.06rem;
+}

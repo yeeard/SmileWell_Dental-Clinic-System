@@ -1,0 +1,36 @@
+.appointmentsContent{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 1rem;
+}
+
+.appointmentsMain{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+.appointmentsHeader{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    .appointmentsHeaderLabelContainer{
+        display:flex;
+        flex-direction: row;
+        flex: 1;
+        align-items: center;
+        padding: 0.625rem 1.625rem;
+        font-weight: 700;
+    }
+
+.appointmentCardContainer{
+    display:flex;
+    flex-direction: column;
+    
+}

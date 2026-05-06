@@ -1,0 +1,29 @@
+.dashboardHeader{
+    display: flex;
+    height: 6.25rem;
+    padding: 0 0.625rem;
+    align-items: center;
+    align-self: stretch;
+}
+
+.dashboardHeaderText{
+    font-size: 2.5rem;
+    font-weight: 550;
+    letter-spacing: -0.075rem;
+}
+
+.metricsContainer{
+    display: flex;
+    height: 20rem;
+    padding-bottom: 0.625rem;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.upcomingAppointmentsContainer{
+    display: flex;
+    flex: 1;
+
+    overflow: hidden;
+}

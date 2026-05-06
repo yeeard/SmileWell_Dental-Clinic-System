@@ -1,0 +1,52 @@
+
+.sidebarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    border-right: 3px solid #E5E7EB;
+    background: #FFF;
+}
+
+.header h1{
+    color: #7BB3D2;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.20);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.09rem;
+}
+
+.header{
+    display: flex;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.SmileWell{
+    color: #b18b39;
+}
+
+.Subtext{
+    color: #2E5C76;
+}
+
+.sideNavbar{
+    display: flex;
+    padding: 5rem 1.875rem 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1.875rem;
+    align-self: stretch;
+    margin-top: auto;
+}

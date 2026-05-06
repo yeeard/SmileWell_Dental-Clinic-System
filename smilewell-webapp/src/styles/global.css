@@ -1,0 +1,28 @@
+:root{
+  --font-main: 'Plus Jakarta Sans', sans-serif;
+  --sidebar-width: clamp(260px, 20vw, 420px);
+  --topbar-height: 10rem;
+  --background-color: #f1f1f1; /* Default: #FAFAFA */
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  font-family: var(--font-main);
+  color: black;
+  background: var(--background-color);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.20);
+}
+
+.mainContainer{
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  flex: 1;
+  align-self: stretch;
+
+  overflow: hidden;
+}
